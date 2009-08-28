@@ -4,8 +4,8 @@ Version:	0.1.2
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
-Source0:	http://vaab.free.fr/pkg/%{name}-%{version}.tar.gz
-# Source0-md5:	63cc4e11c7a5b3423a86982d90003861
+Source0:	http://www.kalysto.org/pkg/%{name}-%{version}.tar.gz
+# Source0-md5:	689e24f64e99a471c89eb3d7958f7530
 URL:		http://www.kalysto.org/utilities/dd_rhelp/index.en.html
 Requires:	ddrescue
 BuildArch:	noarch
@@ -37,5 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog FAQ NEWS README* THANKS TODO
+%doc AUTHORS ChangeLog FAQ NEWS README* THANKS TODO doc/example.txt
 %attr(755,root,root) %{_bindir}/dd_rhelp
